@@ -23,14 +23,8 @@ function Festivals(props) {
 
   return (
     <div className={ styles.festivals }>
-      <MarqueeFestivals
-
-        marqueeFestivals={ marqueeFestivals }
-      />
-      <FestivalAlliance
-        ffaAll={ ffaAll }
-        ffaUpcoming={ ffaUpcoming }
-      />
+      <MarqueeFestivals marqueeFestivals={ marqueeFestivals } />
+      <FestivalAlliance ffaAll={ ffaAll } ffaUpcoming={ ffaUpcoming } />
     </div>
   );
 }
