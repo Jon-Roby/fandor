@@ -1,0 +1,76 @@
+@import 'variables';
+
+.navbarContainer {
+  width: 100%;
+  display: block;
+  height: 5em;
+  background-color: black;
+}
+
+.navbar {
+  height: 100%;
+  max-width: 940px;
+  padding-left: 1em;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarLeft, .navbarRight {
+  display: flex;
+  align-items: center;
+  font-size: .85em;
+  font-weight: 300;
+}
+
+.navbarLeft > div {
+  margin-right: 2.5em;
+}
+
+.navbarLeft div {
+  display: inline;
+  cursor: pointer;
+  &:hover {
+    color: $fandor-orange;
+  }
+}
+
+.navbarLogo {
+  background-color: black;
+  width: 131px;
+  height: 35px;
+}
+
+.navbarDownArrow {
+  font-size: 7px;
+  margin-left: 1.5em;
+}
+
+.navbarLoginButton {
+  color: $fandor-blue;
+  &:hover {
+    color: $fandor-blue;
+    cursor: pointer;
+  }
+}
+
+.navbarSignInButton {
+  background-color: $fandor-orange;
+  color: white;
+  height: 2em;
+  margin-left: 2em;
+  margin-right: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: $fandor-blue;
+    color: white;
+    cursor: pointer;
+  }
+}
