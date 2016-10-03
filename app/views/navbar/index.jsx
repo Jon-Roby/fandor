@@ -1,6 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import styles from '../../styles/navbar.scss';
-console.log("styles ", styles);
 
 function Navbar() {
   const imgUrl = 'http://d3uc4wuqnt61m1.cloudfront.net/assets/fandor_logo@2x-c079219b36c9d4048ece9e7c9f0ef427.png';
@@ -35,10 +34,4 @@ function Navbar() {
   );
 }
 
-// Player.propTypes = {
-//   title: PropTypes.string,
-//   podcastTitle: PropTypes.string,
-//   src: PropTypes.string,
-// };
-
-export default Navbar
+export default Navbar;
