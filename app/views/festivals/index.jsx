@@ -2,6 +2,8 @@ import React, { PropTypes } from 'react';
 import MarqueeFestivals from './marquee-festivals';
 import FestivalAlliance from './festival-alliance';
 
+import styles from '../../styles/festivals.scss';
+
 function Festivals(props) {
   const {
     festivalData: {
@@ -20,9 +22,15 @@ function Festivals(props) {
   const ffaUpcoming = festivals.filter(festival => ffa_upcoming.includes(festival.id));
 
   return (
-    <div>
-      <MarqueeFestivals marqueeFestivals={ marqueeFestivals } />
-      <FestivalAlliance ffaAll={ ffaAll } ffaUpcoming={ ffaUpcoming } />
+    <div className={ styles.festivals }>
+      <MarqueeFestivals
+
+        marqueeFestivals={ marqueeFestivals }
+      />
+      <FestivalAlliance
+        ffaAll={ ffaAll }
+        ffaUpcoming={ ffaUpcoming }
+      />
     </div>
   );
 }
