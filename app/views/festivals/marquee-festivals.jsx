@@ -12,8 +12,11 @@ function MarqueeFestivals(props) {
   );
 
   return (
-    <div className={ styles.marqueeFestivalsDisplay }>
-      { marqueeFestivalsItems }
+    <div className={ styles.marqueeFestivalContainer }>
+      <div className={styles.marqueeFestivalTitle}>Marquee Festivals</div>
+      <div className={ styles.marqueeFestivalsDisplay }>
+        { marqueeFestivalsItems }
+      </div>
     </div>
   );
 }

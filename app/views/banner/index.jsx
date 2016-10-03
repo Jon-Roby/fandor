@@ -4,10 +4,10 @@ import styles from '../../styles/banner.scss';
 
 function Banner(props) {
   const { bannerFestivals = [] } = props;
-  //console.log('bannerFestivals ', bannerFestivals);
+  console.log('bannerFestivals ', bannerFestivals);
   return (
     <div className={ styles.banner }>
-      Banner 2
+      Banner
     </div>
   );
 }

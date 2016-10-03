@@ -1,6 +1,19 @@
+@import 'variables';
+
 .marqueeFestivalsDisplay {
-  max-width: 72%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.marqueeFestivalTitle {
+  max-width: 72%;
+  font-size: 1.2em;
+  color: $fandor-blue;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.marqueeFestivalContainer {
+  max-width: 72%;
 }

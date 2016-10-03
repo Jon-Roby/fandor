@@ -1,14 +1,48 @@
+@import 'variables';
+
 .ffaContainer {
-  width: 28%;
+  width: 27%;
   display: flex;
   justify-content: flex-end;
+  padding-top: 20px;
 }
 
 .ffaSecondContainer {
   width: 240px;
+  border-left: 1px dotted #969690;
+  padding-left: 12px;
 }
 
 .ffaImage {
   width: 167px;
   height: 148px;
+  padding-bottom: 10px;
+}
+
+.ffaTitle {
+  font-size: 1.1em;
+  padding-bottom: 5px;
+
+}
+
+.ffaBlurb {
+  font-size: .85em;
+  line-height: 1.5;
+}
+
+.listTitle {
+  font-size: .9em;
+  border-bottom: 1px dotted #969690;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  font-size: .85em;
+  color: $fandor-blue;
+  line-height: 2;
+}
+
+.listItem:nth-child(1) {
+  padding-top: 5px;
 }
