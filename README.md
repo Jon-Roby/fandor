@@ -1,6 +1,6 @@
 ###
 
-Image Slider, Navbar popups and tests are coming soon!
+Image Slider, Navbar popups, better responsive design, and tests are coming soon!
 
 To start:
 ```
