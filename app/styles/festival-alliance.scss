@@ -46,3 +46,12 @@
 .listItem:nth-child(1) {
   padding-top: 5px;
 }
+
+@media (max-width: 750px) {
+  .ffaContainer {
+    width: 45%;
+
+
+    padding-top: 20px;
+  }
+}

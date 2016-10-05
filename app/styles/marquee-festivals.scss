@@ -17,3 +17,13 @@
 .marqueeFestivalContainer {
   max-width: 72%;
 }
+
+@media (max-width: 1000px) {
+  .marqueeFestivalsDisplay {
+    justify-content: flex-start;
+  }
+  .marqueeFestivalContainer {
+    max-width: 90%;
+    align-self: center;
+  }
+}

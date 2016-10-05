@@ -57,3 +57,9 @@
   align-self: flex-start;
   padding-left: 15px;
 }
+
+@media (max-width: 1000px) {
+  .festivalItem {
+    margin-right: 20px;
+  }
+}

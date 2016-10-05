@@ -6,3 +6,9 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1000px) {
+  .festivals {
+    flex-direction: column;
+  }
+}
