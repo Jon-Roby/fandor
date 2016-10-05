@@ -9,8 +9,7 @@
 
 .navbar {
   height: 100%;
-  max-width: 940px;
-  padding-left: 1em;
+  max-width: 950px;
   color: white;
   margin: 0 auto;
   display: flex;
@@ -72,5 +71,11 @@
     background-color: $fandor-blue;
     color: white;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar {
+    padding-left: 20px;
   }
 }

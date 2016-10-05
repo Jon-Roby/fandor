@@ -1,0 +1,35 @@
+.sliderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.dummy {
+  height: 340px;
+  width: 950px;
+  background-color: 'black';
+}
+
+.tints {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+}
+
+.tintLeft {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 320px;
+  width: calc((100vw - 950px)/2);
+  z-index: 1;
+}
+
+.tintRight {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 320px;
+  width: calc((100vw - 950px)/2);
+  z-index: 1;
+}
